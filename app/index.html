@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html data-ng-app="egApp">
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/"/>
+    <title>EglobalDemo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="clients">All Clients</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row top-buffer">
+            <div class="col-xs-8 col-xs-offset-2">
+                <div ui-view></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="egfrontend/app/lib/angular.min.js"></script>
+    <script type="text/javascript" src="egfrontend/app/js/app.js"></script>
+    <script type="text/javascript" src="egfrontend/app/js/controllers.js"></script>
+    <script type="text/javascript" src="egfrontend/app/js/services.js"></script>
+    <script type="text/javascript" src="egfrontend/app/lib/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="egfrontend/app/lib/angular-resource.min.js"></script>
+</body>
+</html>

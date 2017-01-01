@@ -1,0 +1,34 @@
+<div class="form-group">
+    <label for="country" class="col-sm-2 control-label">Country</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="address.country" class="form-control" id="country" placeholder="Enter country name here"/>
+    </div>
+</div>
+<div class="form-group">
+    <label for="city" class="col-sm-2 control-label">City</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="address.city" class="form-control" id="city" placeholder="Enter city here"/>
+    </div>
+</div>
+<div class="form-group">
+    <label for="zipcode" class="col-sm-2 control-label">Zip Code</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="address.zipcode" class="form-control" id="zipcode" placeholder="Zipcode"/>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="street" class="col-sm-2 control-label">Street</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="address.street" class="form-control" id="street" placeholder="Street"/>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="defaultflag" class="col-sm-2 control-label">Default?</label>
+    <div class="col-sm-10">
+    <input type="checkbox"  ng-checked="address.defaultflag" ng-model="address.defaultflag" class="checkbox" id="defaultflag" />
+        <input type="hidden" ng-model="address.id" />
+        </td>
+    </div>
+</div>

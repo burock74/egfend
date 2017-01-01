@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1fe79fa-0aaf-4ebd-bdfb-757a7f252841" name="akcennet" url="http://139.59.144.122">
+        <fileTransfer host="139.59.144.122" port="21" rootFolder="/public_html/projects/egfend">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

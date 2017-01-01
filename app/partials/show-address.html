@@ -1,0 +1,27 @@
+<table class="table table-hover">
+<thead>
+    <tr>
+        <th>Default</th>
+        <th>Country</th>
+        <th>City</th>
+        <th>Zipcode</th>
+        <th>Street</th>
+        <th colspan="2"></th>
+    </tr>
+</thead>
+    <tbody>
+    <tr ng-repeat="address in addresses" >
+        <td><input type="checkbox" disabled ng-checked="{{address.defaultflag}}" ></td>
+        <td>{{ address.country }}</td>
+        <td>{{ address.city }}</td>
+        <td>{{ address.zipcode }}</td>
+        <td>{{ address.street }} </td>
+        <td><a class="btn btn-primary btn-sm" ui-sref="editAddress({id:address.id})">Edit</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<button ui-sref="addAddress({id:clientid})"  ng-disabled="addresses.length > 2"
+        class="btn-primary btn-sm nodecoration">
+    <span>{{addresses.length > 2 ? 'You have 3 addresses' : 'New Address'}}</span>
+    </button>
